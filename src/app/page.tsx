@@ -1,21 +1,38 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeaturedCar from "./components/FeaturedCar";
+import RecommendCar from "./components/RecommendCar";
+import PickDrop from "./components/Pick-Drop";
+import Footer from "./components/Footer";
+import DetailsPage from "./components/DetailsPage";
 
 const Home = () => {
   return(
     <main>
-     <div className="flex flex-col sm:flex-row">
+     <div className="hidden lg:block">
       <Navbar />
       </div>
 
-      <div className="flex flex-col sm:flex-row md:flex-row">
+      <div>
         <HeroSection />
       </div>
 
-      <div className="flex flex-col sm:flex-row">
+      <div>
+        <PickDrop />
+      </div> 
+
+      <div>
         <FeaturedCar />
       </div>
+
+     <div>
+       <RecommendCar />
+      </div>
+
+     <div>
+      <Footer />
+     </div>
+
   </main>
   )
 }

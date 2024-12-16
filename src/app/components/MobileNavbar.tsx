@@ -20,9 +20,9 @@ const MobileNavbar = () => {
       <SheetDescription>
       <ul>
             <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Sign Up</a></li>
+            <li><a href="">Deatailed Car</a></li>
+            <li><a href="">Checkout</a></li>
+            <li><a href="">Location</a></li>
           </ul>
       </SheetDescription>
     </SheetHeader>

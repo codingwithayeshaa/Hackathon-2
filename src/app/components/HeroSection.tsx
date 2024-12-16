@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroSection = ()  => {
     return(
-            <div className="flex  gap-[40px] w-[1020px] h-[320px] pt-[20px] pl-[90px]">
+            <div className="flex sm:flex-row gap-[40px] w-[1020px] h-[320px] pt-[20px] pl-[90px]">
             <div className="bg-[#54A6FF] w-[640px] h-[320px] pt-[24px] pl-[24px] border-2 rounded-[8px]">
             <h1 className="w-[272px] h-[96px] font-medium font-plusJakartaSans text-[28px] text-[#FFFFFF]">The Best Platform for Car Rental</h1>
             <p className="w-[284px] h-[48px] pt-[2px] font-medium font-plusJakartaSans text-[16px] text-[#F5F5F5]">Ease of doing a car rental safely and reliably. Of course at a low price.</p>

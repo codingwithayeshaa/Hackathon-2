@@ -1,6 +1,7 @@
 import CarCard from "./CarCard";
 import Image from "next/image";
 
+
 const PopularCar = () => {
    const carDetails=[
            {carName:"Koenigsegg",price:"$99.00/ day",imagePath:"/image 7.png",button:"Rent Now"},
@@ -9,8 +10,12 @@ const PopularCar = () => {
            {carName:"NissanGT-R",price:"$80.00/ day",imagePath:"/image 8.png",button:"Rent Now"},
        ]
        return(
-           <div className="w-[1312px] h-[452px]"> 
-               <div className="flex flex-wrap justify-center pt-[36px] w-[490] gap-[18px]">
+           <div className="flex sm:flex-row md:flex-col lg:flex-col w-[1112px] h-[452px]"> 
+           <div className="flex justify-center w-[1100px] h-[44px] gap-[840px] pt-[46px] pb-[20px]">
+            <h2 className="font-plusJakartaSans font-semibold text-[16px] text-[#90A3BF]">Popular Cars</h2>
+            <h3 className="text-[#3563E9] font-plusJakartaSans font-semibold text-[16px]">View All</h3>
+           </div>
+               <div className="flex flex-wrap justify-center pt-[10px] gap-[px]">
                  {
                    carDetails.map((vehicle) => {
                        return(

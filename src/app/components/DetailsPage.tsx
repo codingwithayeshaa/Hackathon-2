@@ -1,8 +1,8 @@
-import React from "react";
 import Image from "next/image";
 import { ArrowUpDown } from 'lucide-react';
+import React from "react";
 
-const PickDrop = () => {
+const DetailsPage = () => {
     return(
         <div className="grid grid-cols-1 md:grid-cols-2 bg-[#FFFFFF] h-[172px] pt-[48px] shadow-md">
 
@@ -16,8 +16,7 @@ const PickDrop = () => {
             <div className="w-[432px] h-[112px] border rounded-lg ml-[80px]">
                 <Image src= "/Drop - Off.png" alt= "" width={500} height={300} />
             </div>
-        </div>
+        </div> 
     )
 }
-
-export default PickDrop;
+export default DetailsPage;
