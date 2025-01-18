@@ -14,16 +14,16 @@ const MobileNavbar = () => {
         <div>
              <Sheet>
   <SheetTrigger><Menu /></SheetTrigger>
-  <SheetContent>
+  <SheetContent>\
     <SheetHeader>
       <SheetTitle></SheetTitle>
-      <SheetDescription>
-      <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Deatailed Car</a></li>
-            <li><a href="">Checkout</a></li>
-            <li><a href="">Location</a></li>
-          </ul>
+      <SheetDescription className="bg-slate-500">
+      <ul className="flex items-center justify-center gap-6 p-5 text-black">
+               <li><a href="">Home</a></li>  
+               <li><a href="">About</a></li>  
+               <li><a href="">Service</a></li>  
+               <li><a href="">Contact</a></li>  
+             </ul>
       </SheetDescription>
     </SheetHeader>
   </SheetContent>
