@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter , Plus_Jakarta_Sans} from "next/font/google";
 import "./globals.css";
+import Header from "./new components/Header";
+import Footer from "./new components/Footer";
+import MobileNavbar from "./components/MobileNavbar";
 // import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 
@@ -25,8 +28,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={plusJakartaSans .className}>
       {/* <Navbar/> */}
-        {children}
+      <Header />
+      <MobileNavbar />
+        {children} 
       {/* <Footer /> */}
+      <Footer />
       </body>
     </html>
   );

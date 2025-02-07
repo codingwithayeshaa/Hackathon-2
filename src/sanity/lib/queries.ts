@@ -1,7 +1,7 @@
 import { defineQuery } from "next-sanity";
 
 export const allcars = defineQuery(`
-    *[_type == "car"][]{
+    *[_type == "car"]{
       _id,
       name,
       description,
